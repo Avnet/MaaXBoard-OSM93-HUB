@@ -23,6 +23,7 @@ Note: Board images can be downloaded from the Releases section
       - Getting Started Guide
       - Development Guides
       - Release Notes
+  - Development
    
 ## About
 
