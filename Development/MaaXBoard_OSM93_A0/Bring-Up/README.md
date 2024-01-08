@@ -9,7 +9,7 @@ The purpose of this document is to provide development details for the MaaXBoard
 
 ### Hardware Setup
 
-![MaaXBoard OSM93 H/W Setup](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/IMG_4035.jpg?raw=true)
+![MaaXBoard OSM93 H/W Setup](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/MaaXBoard-OSM93-Details.png?raw=true)
 
 ### Power
 Power the MaaXBoard OSM93 with a USB-C cable, plugging it into the Power/USB_A port as shown on the silkscreen of the board. 
