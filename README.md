@@ -23,7 +23,7 @@ Note: Board images can be downloaded from the Releases section
       - Getting Started Guide
       - Development Guides
       - Release Notes
-  - Development
+  - [Development](https://github.com/Avnet/MaaXBoard-OSM93-HUB/tree/main/Development)
    
 ## About
 
