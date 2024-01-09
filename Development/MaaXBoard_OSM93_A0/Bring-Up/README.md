@@ -5,9 +5,9 @@ The purpose of this document is to provide development details for the MaaXBoard
 ![MaaXBoard OSM93](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/IMG_4034.jpg?raw=true)
 
 
-## Tasks
+# Tasks (01/08/2024)
 
-### Hardware Setup
+## Hardware Setup
 
 ![MaaXBoard OSM93 H/W Setup](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/MaaXBoard-OSM93-Details.png?raw=true)
 
@@ -31,10 +31,28 @@ ssh root@<IP_addr>
 
 Once connected, you will have access to the Linux kernal.
 
+### USB
+
+
+## Software
+
+Linux kernal version = 6.1.22
+Op. System = NXP i.MX RElease Distro 6.1-mickledore
+
+
+### Python Packages 
+pip3 
+pycairo==1.23.0
+pyGObject==3.42.2
+
+
+
 
 ## Issues
 
 1. After receiving MaaXBoard OSM93 and performing initial boot, ETH_B green indicator LED was stuck ON. Plugging an ethernet cable into ETH_B port, I was unable to receive any notification from the debug console that connection was received, nor was I able to identify the port using ifconfig. While this occurred, I was able to switch the cable from port B to port A and observed a successful ethernet connection, however port B appeared to be hung. 
+
+![ETH_B Hang](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/IMG_4033.jpg?raw=true)
 
 2. Silkscreen of the debug console shows M33 and A33. This is an error, A33 should be A55. 
 
