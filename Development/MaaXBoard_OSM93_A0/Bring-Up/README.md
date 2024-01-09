@@ -32,19 +32,44 @@ ssh root@<IP_addr>
 Once connected, you will have access to the Linux kernal.
 
 ### USB
+MaaXBoard OSM93 has 4 USB ports. 
+- Power/USB_A
+- USB_B
+- Stacked USB 2.0 Host adapter ports 
 
+A thumb drive was plugged into USB_B and the two stacked USB 2.0 ports to check if the board could identify the storage medium, and did so successfully. 
+
+A USB camera was also connected to one of the ports and a short test script was implemented to see if the board could read camera data & display over a web server. There appears to be a package missing from the board's image to allow utilization of CV2 (openCV-Python). 
+ - Issue:
+```python
+Traceback (most recent call last):
+  File "/home/root/test.py", line 1, in <module>
+    import cv2
+  File "/usr/lib/python3.11/site-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/usr/lib/python3.11/site-packages/cv2/__init__.py", line 153, in bootstrap
+    native_module = importlib.import_module("cv2")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+``````
 
 ## Software
-
+```
 Linux kernal version = 6.1.22
+
 Op. System = NXP i.MX RElease Distro 6.1-mickledore
+```
 
 
 ### Python Packages 
+```python
 pip3 
 pycairo==1.23.0
 pyGObject==3.42.2
-
+``````
 
 
 
@@ -55,6 +80,9 @@ pyGObject==3.42.2
 ![ETH_B Hang](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/IMG_4033.jpg?raw=true)
 
 2. Silkscreen of the debug console shows M33 and A33. This is an error, A33 should be A55. 
+
+3. Observed reduced data rate mode on Eth_A port while connected. No scripts/commands running that caused entry into this mode. 
+
 
 
 
