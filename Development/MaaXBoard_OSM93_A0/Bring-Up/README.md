@@ -5,7 +5,7 @@ The purpose of this document is to provide development details for the MaaXBoard
 ![MaaXBoard OSM93](https://github.com/Avnet/MaaXBoard-OSM93-HUB/blob/main/Development/MaaXBoard_OSM93_A0/Bring-Up/BoardPictures/IMG_4034.jpg?raw=true)
 
 
-# Tasks (01/08/2024)
+# Tasks (01/09/2024)
 
 ## Hardware Setup
 
@@ -54,7 +54,20 @@ Traceback (most recent call last):
     return _bootstrap._gcd_import(name[level:], package, level)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ImportError: libGL.so.1: cannot open shared object file: No such file or directory
-``````
+```
+
+### Wireless Chipset Test (IW612 M.2 card from imx93evk)
+The IW612 card from imx93evk was swapped onto the MaaXBoard OSM93 for wireless (bluetooth & wifi) testing. 
+
+Per 6.1.22 Linux user guide, the user must enter ```modprobe moal mod_para=nxp/wifi_mod_para.conf``` to being initialization of the module. Upon running this on the MaaXBoard OSM93, the following error occurs:
+
+```
+root@imx93-11x11-lpddr4x-evk:/# modprobe moal mod_para=nxp/wifi_mod_para.conf
+
+modprobe: FATAL: Module moal not found in directory /lib/modules/6.1.22-gff4fc9ed043f-dirty
+```
+
+This is most likely due to the yocto image not being built as a "full" distribution. 
 
 ## Software
 ```
@@ -82,6 +95,10 @@ pyGObject==3.42.2
 2. Silkscreen of the debug console shows M33 and A33. This is an error, A33 should be A55. 
 
 3. Observed reduced data rate mode on Eth_A port while connected. No scripts/commands running that caused entry into this mode. 
+
+4. Yocto image build doesn't appear to be a "full" distribution built image
+ - Missing key libraries for CV2 support (opencv)
+ - Missing modules to support wireless initialization
 
 
 
