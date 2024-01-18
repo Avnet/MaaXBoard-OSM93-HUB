@@ -100,7 +100,9 @@ pyGObject==3.42.2
  - Missing key libraries for CV2 support (opencv)
  - Missing modules to support wireless initialization
 
+5. 01/17/2024 - Issue with debug console on Monica's board. After powering on board and attaching serial cable to console debug port, no data can be sent/received. Attempted to duplicate issue on Jacob's board by sequencing both power and debug console connection but unsuccessful. 
 
+6. 01/17/2024 - Center ethernet port on Monica's board unresponsive via ssh. Unable to connect locally or over network. Ethernet port on side of board near PI hat connector is responsive and able to ssh send/receive linux commands there. 
 
 
 
