@@ -19,6 +19,7 @@ Note: Board images can be downloaded from the Releases section.
       - Image Packages
     - Accessories
   - Related Repositories
+  - Demos
   - Related Blogs
   - Getting Started & Manuals
       - Product Brief
