@@ -47,21 +47,21 @@ The NXP i.MX93 processor is architected with 3 separate processing domains:
 MaaXBoard OMS93 follows the same form factor as the Rasperry Pi enabling seamless integration of the hardware into existing platforms using this standard.
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-top.png width="500">
+    <img src=".assets/maaxboardosm93-top.png" width="500" style="transform: rotate(180deg)">
 </p>
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-iso1.png width="500">
+    <img src=".assets/maaxboardosm93-iso1.png" width="500">
 </p>
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-iso2.png width="500">
+    <img src=".assets/maaxboardosm93-iso2.png" width="500">
 </p>
 
 An M.2 key-E connector on back of the board facilitates easy integration of optional NXP based tri-radio M.2 module solutions, for concurrent Wi-Fi 6, Bluetooth (5.3) and 802.15.4 wireless operation.
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-iso2.png width="500">
+    <img src=".assets/maaxboardosm93-iso2.png" width="500">
 </p>
 
 Installed onto the board is the MSC-OSM-SF-IMX93 solder down module. 
