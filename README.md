@@ -47,7 +47,7 @@ The NXP i.MX93 processor is architected with 3 separate processing domains:
 MaaXBoard OMS93 follows the same form factor as the Rasperry Pi enabling seamless integration of the hardware into existing platforms using this standard.
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-top.png" width="500" style="transform: rotate(180deg)">
+    <img src=".assets/maaxboardosm93-top.png" width="500">
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@ MaaXBoard OMS93 follows the same form factor as the Rasperry Pi enabling seamles
 An M.2 key-E connector on back of the board facilitates easy integration of optional NXP based tri-radio M.2 module solutions, for concurrent Wi-Fi 6, Bluetooth (5.3) and 802.15.4 wireless operation.
 
 <p align="center">
-    <img src=".assets/maaxboardosm93-iso2.png" width="500">
+    <img src=".assets/maaxboardosm93-bottom.png" width="500">
 </p>
 
 Installed onto the board is the MSC-OSM-SF-IMX93 solder down module. 
@@ -73,20 +73,30 @@ Installed onto the board is the MSC-OSM-SF-IMX93 solder down module.
 ### Memory & Storage
 
 ### Software & BSP
+
 Coming Soon!
 
 ### Board Support Package
 
+Coming Soon!
+
 ### Image Packages
 
+Coming Soon!
+
 ### Accessories
+
 Coming soon!
 
 ### Related Repositories
+- [MaaXBoard Metalayer](https://github.com/Avnet/meta-maaxboard): Contains the Yocto metalayer for MaaXBoards including MaaXBoard OSM93 as well as **building information**
+- [U-boot source code](https://github.com/Avnet/uboot-imx/tree/dev_maaxboard-osm93_lf-6.1.22-2.0.0): Contains the source code for U-Boot, a boot loader for Embedded boards.
+- [Linux kernel source code](https://github.com/Avnet/linux-imx/tree/dev_maaxboard-osm93_lf-6.1.22-2.0.0)): Contains the source code for the Linux kernel.
 
 
 ### Demos
 
+Demos created for the MaaXboard OMS93 can be found on the the dedicated [Maaxboard-OSM93-Demos](https://github.com/Avnet/Maaxboard-OSM93-Demos) page. 
 
 ### Related Blogs
 Coming Soon!
@@ -96,7 +106,7 @@ Coming Soon!
 ### Product Brief
 - [Block Diagram](https://www.avnet.com/wps/wcm/connect/onesite/7cf18444-2d53-4061-9eb6-4500d34a3687/MaaXBoard_OSM93_BlockDiag_ProdBrief_18Mar2024.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-7cf18444-2d53-4061-9eb6-4500d34a3687-oVy9irI)
 
--[Product Brief](https://www.avnet.com/wps/wcm/connect/onesite/710506b4-a98c-453b-91a9-cade51251c3c/FY24_1345_MaaXBoard_OSM93_Product_Brief_R6.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-710506b4-a98c-453b-91a9-cade51251c3c-oX54Gw0)
+- [Product Brief](https://www.avnet.com/wps/wcm/connect/onesite/710506b4-a98c-453b-91a9-cade51251c3c/FY24_1345_MaaXBoard_OSM93_Product_Brief_R6.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-710506b4-a98c-453b-91a9-cade51251c3c-oX54Gw0)
 
 ### Getting Started Guide
 Coming Soon!
@@ -105,4 +115,5 @@ Coming Soon!
 Coming Soon!
 
 ### Release Notes
+Coming Soon!
 
