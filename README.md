@@ -45,7 +45,7 @@ The NXP i.MX93 processor is architected with 3 separate processing domains:
 ### Form Factor & Interfaces
 
 <p align="center">
-    <img src="https://www.avnet.com/wps/wcm/connect/onesite/9118ad80-b3e4-45fe-ae45-32f1d5827e03/_N1A0011_768x432.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-9118ad80-b3e4-45fe-ae45-32f1d5827e03-oVy9gV4" width="500">
+    <img src=".assets/image.png" width="500">
 </p>
 
 
