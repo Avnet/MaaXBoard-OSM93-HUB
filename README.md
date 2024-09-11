@@ -37,6 +37,9 @@ This repository serves as a central hub for all resources related to MaaXBoard O
 
 Note: Board images can be downloaded from the Releases section
 
+<details open>
+    <summary>More information & Specs</summary>
+
 ### Processing
 
 ### Form Factor & Interfaces
