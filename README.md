@@ -30,19 +30,24 @@ Note: Board images can be downloaded from the Releases section.
    
 ## About
 
-Welcome to the information hub for MaaXBoard OSM93, a development kit focused around the NXP i.MX93 processor enabling fast edge computing, expanded networking, and AI acceleration. 
-
-The i.MX93 features up to two Arm® Cortex®-A55 running at 1.7 GHz, an Arm Cortex-M33 core @ 250 MHz, and an Arm Ethos-U65 NPU to support accelerated AI and ML processing. 
-This repository serves as a central hub for all resources related to MaaXBoard OSM93.
-
-Note: Board images can be downloaded from the Releases section
+MaaXBoard OSM93 is a feature rich development kit designed around the Raspberry Pi form factor. Various I/O interfaces are available on the board such as the standard 40pin Pi Hat connector, 2x CAN interface connectors, and 2x Gb Ethernet RJ45 connectors. This NXP i.MX 93 processor-based platform is ideal for development of accelerated edge AI computing with it's on-board NPU, versatile networking capabilities with it's dual ethernet ports, and industrial applicaions that require additional CAN bus interfaces. 
 
 <details open>
     <summary>More information & Specs</summary>
 
 ### Processing
 
+The NXP i.MX93 processor is architected with 3 separate processing domains: 
+- Application domain with two Arm® Cortex®-A55 (1.7 GHz) cores 
+- Real time domain with Arm® Cortex®-M33 (250 MHz) core
+- Flex domain with Arm® Ethos-U65 NPU (1 GHz)
+
 ### Form Factor & Interfaces
+
+<p align="center">
+    <img src="https://www.avnet.com/wps/wcm/connect/onesite/9118ad80-b3e4-45fe-ae45-32f1d5827e03/_N1A0011_768x432.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-9118ad80-b3e4-45fe-ae45-32f1d5827e03-oVy9gV4" width="500">
+</p>
+
 
 ### Memory & Storage
 
