@@ -8,7 +8,7 @@ Note: Board images can be downloaded from the Releases section.
 
 
 ## Table of Contents 
-- MaaXBoard-OSM-93-HUB
+- [MaaXBoard-OSM-93-HUB](https://github.com/Avnet/MaaXBoard-OSM93-HUB?)
   - [Table of Contents](https://github.com/Avnet/MaaXBoard-OSM93-HUB?tab=readme-ov-file#table-of-contents)
   - [About](https://github.com/Avnet/MaaXBoard-OSM93-HUB?tab=readme-ov-file#about)
     - [Processing](https://github.com/Avnet/MaaXBoard-OSM93-HUB?tab=readme-ov-file#processing)
@@ -30,7 +30,7 @@ Note: Board images can be downloaded from the Releases section.
    
 ## About
 
-MaaXBoard OSM93 is a feature rich development kit designed around the Raspberry Pi form factor. Various I/O interfaces are available on the board such as the standard 40pin Pi Hat connector, 2x CAN interface connectors, and 2x Gb Ethernet RJ45 connectors. This NXP i.MX 93 processor-based platform is ideal for development of accelerated edge AI computing with it's on-board NPU, versatile networking capabilities with it's dual ethernet ports, and industrial applicaions that require additional CAN bus interfaces. 
+MaaXBoard OSM93 is a feature rich development kit designed around the Raspberry Pi form factor. Various I/O interfaces are available on the board such as the standard 40pin Pi Hat connector, 6pin 2-channel CAN interface connector, and 2x Gb Ethernet RJ45 connectors. This NXP i.MX 93 processor-based platform is ideal for development of accelerated edge AI computing with it's on-board NPU, versatile networking capabilities with it's dual ethernet ports, and industrial applicaions that require additional CAN bus interfaces. 
 
 <details open>
     <summary>More information & Specs</summary>
@@ -91,7 +91,7 @@ Coming soon!
 ### Related Repositories
 - [MaaXBoard Metalayer](https://github.com/Avnet/meta-maaxboard): Contains the Yocto metalayer for MaaXBoards including MaaXBoard OSM93 as well as **building information**
 - [U-boot source code](https://github.com/Avnet/uboot-imx/tree/dev_maaxboard-osm93_lf-6.1.22-2.0.0): Contains the source code for U-Boot, a boot loader for Embedded boards.
-- [Linux kernel source code](https://github.com/Avnet/linux-imx/tree/dev_maaxboard-osm93_lf-6.1.22-2.0.0)): Contains the source code for the Linux kernel.
+- [Linux kernel source code](https://github.com/Avnet/linux-imx/tree/dev_maaxboard-osm93_lf-6.1.22-2.0.0): Contains the source code for the Linux kernel.
 
 
 ### Demos
