@@ -30,6 +30,13 @@ Note: Board images can be downloaded from the Releases section.
    
 ## About
 
+Welcome to the information hub for MaaXBoard OSM93, a development kit focused around the NXP i.MX93 processor enabling fast edge computing, expanded networking, and AI acceleration. 
+
+The i.MX93 features up to two Arm® Cortex®-A55 running at 1.7 GHz, an Arm Cortex-M33 core @ 250 MHz, and an Arm Ethos-U65 NPU to support accelerated AI and ML processing. 
+This repository serves as a central hub for all resources related to MaaXBoard OSM93.
+
+Note: Board images can be downloaded from the Releases section
+
 ### Processing
 
 ### Form Factor & Interfaces
